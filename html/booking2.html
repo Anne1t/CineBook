@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CineBook</title>
+    <link type="image/png" sizes="96x96" rel="icon" href="../images/icons8-film-96 rel.png" />
+    <script src="https://kit.fontawesome.com/60743dca7e.js" crossorigin="anonymous"></script>
+    <meta
+      name="description"
+      content="CineBook offers shows, movie tickets, concert tickets and events nearby. Also features promotional offers and coupons."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <img
+        src="../images/icons8-film-96.png"
+        width="30"
+        height="30"
+        alt="CineBook Logo"
+      />
+      <a class="navbar-brand" href="../index.html">CineBook</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shows.html">Shows</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <div class="container mt-3">
+        <h1 id="m_title">Book Tickets for: Adipurush</h1> &nbsp; &nbsp;
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <center>
+                    <br><br><br>
+        <img id="img" src="../images/adp.jpg" alt="Movie Poster" class="sms" width="300" length="500">
+    <br><br>
+        </center>
+            </div>
+            <div class="col">
+                <div class="flex-container">
+                    <p>Mon 26 Jun</p>
+        <button data-toggle="modal" data-target="#modal"class="btn btn-warning"><b>09:30 AM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>13:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>18:00 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>22:00 PM</b></button> 
+        <br><br> 
+        <p>Tue 27 Jun</p>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>08:30 AM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>10:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>17:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>22:00 PM</b></button>  
+        <br><br> 
+        <p>Wed 28 Jun</p>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>09:00 AM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>11:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>17:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>23:30 PM</b></button>  
+        <br><br> 
+        <p>Thu 29 Jun</p>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>09:30 AM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>13:30 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>15:00 PM</b></button>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>17:30 PM</b></button>  
+        <br><br> 
+        <p>Fri 30 Jun</p>
+        <button data-toggle="modal" data-target="#modal" class="btn btn-warning"><b>11:00 AM</b></button>
+      </div>
+    </div>
+            </div>
+        </div>
+        <div id="modal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Confirmation</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Confirm booking?
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="confirmed()">Yes, confirm.
+              </button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                  No, go back.
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br><br><br>
+    <footer>
+      <div class="container">
+        <img
+          src="../images/icons8-film-96.png"
+          width="15"
+          height="15"
+          alt="CineBook Logo"
+        />
+        <p>CineBook</p>
+        <h6>
+          Contact Us: <i class="fa fa-envelope"></i>&nbsp;<a
+            href="mailto:cinebook@example.com"
+            >cinebook@example.com</a
+          >
+        </h6>
+        <em>CineBook copyright © 2023 all rights reserved</em>
+      </div>
+      <br>
+    </footer>
+    <script src="../main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

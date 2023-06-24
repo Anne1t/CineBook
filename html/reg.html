@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CineBook</title>
+    <link type="image/png" sizes="96x96" rel="icon" href="../images/icons8-film-96 rel.png" />
+    <meta
+      name="description"
+      content="CinemasterBook provides easy booking facilities for shows, theatre events, movies and much more!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/reg.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 style="color: white; margin-top: 20px">Create Account</h1>
+    <br>
+    <form action="../index.html">
+      <div class="headingsContainer">
+        <h3>Register</h3>
+        <p>Enter your details to register.</p>
+      </div>
+
+      <!-- Main container for all inputs -->
+      <div class="mainContainer">
+        <!-- Name -->
+        <label for="name">Enter Full Name</label>
+        <input type="text" placeholder="Enter Name" name="name" required />
+        <br>
+
+        <!--Email-->
+        <label for="email">Enter E-mail</label>
+        <input
+          type="email"
+          placeholder="Enter your Mail Address"
+          name="mail"
+          required
+        />
+        <br>
+
+        <!-- Password -->
+        <label for="pswrd">Choose Password</label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          id="pass"
+          name="pswrd"
+          required
+        />
+        <label for="pswrd">Enter Password again</label>
+        <input
+          type="password"
+          placeholder="Verify Password"
+          id="pass2"
+          name="pswrd2"
+          required
+        />
+
+        <!--Button: Create Account, Pwd Display Label, Login Redirect-->
+        <center>
+          <input type="submit" class="button" style="text-align: center;" id="submit">Register
+            Already a member? <a class="at" href="login.html">Login here!</a>
+          </p>
+        </center>
+      </div>
+    </form>
+    <br><br>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

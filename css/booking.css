@@ -1,0 +1,13 @@
+.sms {
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  /*footer*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FFC107;
+    color: rgb(81, 80, 80);
+  }

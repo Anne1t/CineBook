@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box
+}
+
+.item {
+  height: 400px;
+  width: 800px;
+}
+
+.carousel {
+  transition: transform .2s;
+  /* Animation */
+}
+
+.carousel:hover {
+  transform: scale(1.02);
+}
+
+/*Designing the 'suggested movies'*/
+.sms {
+  height: 400px;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.sms:hover {
+  transform: scale(1.1);
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #FFC107;
+  color: rgb(81, 80, 80);
+}
