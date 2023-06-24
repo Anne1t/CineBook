@@ -8,6 +8,7 @@ CineBook provides easy booking facilities for shows, theatre events, movies and 
 - Icons from <a href="https://icons8.com/">Icons8</a>
 
 NOTE: The login page is to be opened first [login.html].
+Link to site: https://anne1t.github.io/CineBook/html/login.html
 
 It looks something like this:
 
