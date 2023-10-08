@@ -10,7 +10,6 @@ CineBook provides easy booking facilities for shows, theatre events, movies and 
 NOTE: The login page is to be opened first [login.html].
 Link to site: https://anne1t.github.io/CineBook/html/login.html
 
-It looks something like this:
 
 ![image](https://github.com/Anne1t/CineBook/assets/82697496/5ce512a0-22e8-47f1-9074-5b77eae5eca8)
 
